@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+    background-image: url("../public/HiringSkillsProject/hero\ background\ 1.png");
+}
+
+#LA {
+    font-size: 103px;
+    color: #737374;
+    position: relative;
+
+    left: -35px;
+}
+#MT {
+    font-size: 103px;
+    color: #414f6b;
+    position: relative;
+    top: -68px;
+    left: -35px;
+}
+#LA-s {
+    font-size: 18px;
+    color: #737374;
+}
+#MT-s {
+    font-size: 18px;
+    color: #414f6b;
+}
+.section-1 {
+    align-items: center;
+}
+.section-2 a {
+    text-decoration: underline;
+    color: #414f6b;
+}
+.section-4 {
+    align-items: center;
+}
+.section-4 h1 {
+    font-size: 135px;
+    color: #a0a7b5;
+}
+.section-4 h4 {
+    font-size: 32px;
+    color: #a0a7b5;
+}
+.section-4 p {
+    max-width: 625px;
+    color: black;
+}
+.bar {
+    background-color: #414f6b;
+}
+.btn {
+    color: #b0b4be;
+}
+.btn:focus {
+    background-color: #b0b4be;
+    color: #414f6b;
+}
+.mountain-1 {
+    background-image: url("../public/HiringSkillsProject/last\ section\ first\ pic.png");
+    height: 550px;
+}
+.mountain-2 {
+    background-image: url("../public/HiringSkillsProject/last\ section\ 2nd\ pic.png");
+    height: 550px;
+}
+.div-sc {
+    background-color: #ffffffa4;
+}
+.txt-hb {
+    font-size: 32px;
+    color: #414f6b;
+}
+.disp {
+    position: relative;
+    left: 250px;
+    top: 112px;
+}
+
+@media (max-width: 768px) {
+    .section-4 p {
+        font-size: 11px;
+    }
+    #LA {
+        font-size: 55px;
+        color: #737374;
+        position: relative;
+
+        left: 0px;
+    }
+    #MT {
+        font-size: 55px;
+        color: #414f6b;
+        position: relative;
+        top: -20px;
+        left: 0px;
+    }
+    .disp {
+        left: 0;
+    }
+}
+.footer {
+    background-color: #414f6b;
+    align-items: center;
+    justify-content: center;
+}
+.ft {
+    color: white;
+    opacity: 0.8;
+}
